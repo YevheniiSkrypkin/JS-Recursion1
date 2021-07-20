@@ -15,7 +15,7 @@ console.log(getFactorial(a))
 // let b = +prompt('Enter another number');
 
 // function pow(num, degree) {
-//     if (degree == 1) {
+//     if (degree === 1) {
 //         return num;
 //       } else {
 //         return num * pow(num, degree - 1);
@@ -31,11 +31,10 @@ console.log(getFactorial(a))
 // let b = +prompt('Enter another number');
 
 // function sum(num1, num2) {
-//     let result;
-//     for (i=0; num2 >= 0; i++) {
-//         num2--
-//         result = num1++
+//     if(num2 === 0) return num1;
+//     else if (num1 === 0) return num2;
+//     else {
+//     return sum(num1 + 1, num2 - 1);
 //     }
-//     return result
 // }
 // console.log(sum(a, b))
